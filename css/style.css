@@ -8,14 +8,24 @@
     border: 2px solid black;
 }
 
+h5{
+    font-size: 25px;
+}
+
+.lista01-custom{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lista01-custom > li{
+    padding: 10px;
+}
+
 #artista-title {
     transition: font-size 4s ease;
 }
 
-/* Animacao no titulo e na borda do banner */
-#banner-container:hover{
-    border: 3px solid #202529ff;
-    
+#banner-container:hover{    
     #artista-title {
         font-size: 100px;
     }
