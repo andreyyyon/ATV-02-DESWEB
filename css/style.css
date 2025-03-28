@@ -1,24 +1,56 @@
-body{
-    background-color: #09070aff;
-    padding: 20px;
+/* Colocando a imagem de fundo do container banner e diminuindo a opacidade */
+#banner-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../assets/banner.jpeg) center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 2px solid black;
 }
 
-#banner{
-    border: 2px solid #09070aff;
+h5{
+    font-size: 25px;
 }
 
-#banner-container:hover{
-    #banner{
-        border: 2px solid rgba(145, 145, 145, 0.658);
+.lista01-custom{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.lista01-custom > li{
+    padding: 10px;
+}
+
+#artista-title {
+    transition: font-size 4s ease;
+}
+
+#banner-container:hover{    
+    #artista-title {
+        font-size: 100px;
     }
 }
 
+/* Fontes importadas */
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 90px;
     font-style: normal;
   }
-  .custom-font {
-    font-family: 'Bebas Neue', sans-serif;
+
+.nunito-sans-custom {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+.btn-custom-color{
+    background-color: #00cf64ff;
+    color: white;
+    font-weight: 800;
 }
