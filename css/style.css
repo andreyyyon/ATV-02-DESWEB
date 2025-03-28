@@ -1,16 +1,25 @@
 #banner{
+    border: 2px solid 000000ff;
+}
+
+/* Colocando a imagem de fundo do container banner e diminuindo a opacidade */
+#banner-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../assets/banner.jpeg) center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     border: 2px solid #202529ff;
 }
 
 #artista-title {
     transition: font-size 4s ease;
-  }
+}
 
+/* Animacao no titulo e na borda do banner */
 #banner-container:hover{
-    #banner{
-        border: 2px solid rgba(145, 145, 145, 0.3);
-    }
-
+    border: 3px solid rgba(145, 145, 145, 0.7);
+    
     #artista-title {
         font-size: 100px;
     }
