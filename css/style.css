@@ -54,3 +54,43 @@ h5{
     color: white;
     font-weight: 800;
 }
+
+/* Capas de Álbuns */
+
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.album {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.album img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.album p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.albuns-titulo {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 10px;
+}
