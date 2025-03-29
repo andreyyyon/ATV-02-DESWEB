@@ -54,3 +54,58 @@ h5{
     color: white;
     font-weight: 800;
 }
+
+#corclick:active, #corclick:focus {
+    background-color: darkgreen;
+    color: white;
+}
+
+#corclick {
+    font-weight: 800;
+}
+
+#outrosestilos h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+#listaseletores h1 {
+    font-weight: 800;
+
+}
+
+#listaseletores li:hover a {
+    border: 2px solid rgba(254, 255, 250, 0.055);
+    color:rgb(255, 255, 255)
+}
+
+#listaseletores li {
+    text-align: center;
+}
+
+#listaseletores a:first-child {
+    color: rgba(255, 255, 255, 0.7)
+}
+#listaseletores a:last-child {
+    color: rgba(187, 187, 187, 0.7)
+}
+
+#listaseletores ul {
+    list-style: none;
+}
+
+#estrela {
+    color: rgba(255, 231, 20, 0.7)
+}
+
+#pessoa {
+    color: rgba(77, 135, 243, 0.7)
+}
+
+#vinil {
+    color: rgba(250, 86, 228, 0.7)
+}
+
+#microfone {
+    color: rgba(201, 27, 27, 0.7)
+}
